@@ -4,7 +4,8 @@ import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'
 import Education from './components/education'
-//import Projects from './components/projects'
+import Projects from './components/projects'
+//import Foodmap from './components/foodmap'
 
 class App extends Component {
   render() {
@@ -16,7 +17,8 @@ class App extends Component {
 					<Introduction></Introduction>
 					<About></About>
 					<Education></Education>
-          {/*<Projects></Projects>*/}
+          <Projects></Projects>
+          {/*<Foodmap></Foodmap>*/}
           	</div>
       	</div>
       </div>
