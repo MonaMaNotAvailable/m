@@ -205,7 +205,7 @@ export default class Projects extends Component {
 								  <div className="progress">
 								    <div className="progress-bar color-2" role="progressbar" aria-valuenow="30"
 								  	aria-valuemin="0" aria-valuemax="100" style={{width:"30%"}}>
-								    <span>30%</span>
+								    <span>40%</span>
 								    </div>
 								  </div>
 							  </div>
@@ -260,7 +260,7 @@ export default class Projects extends Component {
 						  </div>
               <div className="col-md-6 animate-box" data-animate-effect="fadeInRight">
 							  <div className="progress-wrap">
-								  <h3>place holder</h3>
+								  <h3>Self-Motivation</h3>
 								  <div className="progress">
 								 	  <div className="progress-bar color-4" role="progressbar" aria-valuenow="100"
 								    aria-valuemin="0" aria-valuemax="100" style={{width:"100%"}}>
