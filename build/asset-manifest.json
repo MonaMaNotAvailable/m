@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monarox/static/css/main.7a7d29af.css",
+    "main.js": "/monarox/static/js/main.e4a41adf.js",
+    "index.html": "/monarox/index.html",
+    "main.7a7d29af.css.map": "/monarox/static/css/main.7a7d29af.css.map",
+    "main.e4a41adf.js.map": "/monarox/static/js/main.e4a41adf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7d29af.css",
+    "static/js/main.e4a41adf.js"
+  ]
+}
