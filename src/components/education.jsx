@@ -1,65 +1,68 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class Education extends Component {
-  render() {
-    return (
-      <div>
-        <section className="colorlib-experience" data-section="education">
-          <div className="colorlib-narrow-content">
-            <div className="row">
-              <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">highlights</span>
-                <h2 className="colorlib-heading animate-box">Education</h2>
-              </div>
+const TimelineEntry = ({ iconColor, iconName, title, date, description }) => {
+  return (
+    <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+      <div className="timeline-entry-inner">
+        <div className={`timeline-icon ${iconColor}`}>
+          <i className={iconName} />
+        </div>
+        <div className="timeline-label">
+          <h2>{title} <span>{date}</span></h2>
+          <p>{description}</p>
+        </div>
+      </div>
+    </article>
+  );
+};
+
+const Education = () => {
+  return (
+    <div>
+      <section className="colorlib-experience" data-section="education">
+        <div className="colorlib-narrow-content">
+          <div className="row">
+            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+              <span className="heading-meta">highlights</span>
+              <h2 className="colorlib-heading animate-box">Education</h2>
             </div>
-            <div className="row">
-              <div className="col-md-12">
-                <div className="timeline-centered">
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Tufts University: Master of Science <span>Sep 2022 - May 2024</span></h2>
-                        <p>I am pursuing a graduate degree in computer science at Tufts, with concentration on machine learning, algorithms, and data analysis.</p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-6">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Worcester Polytechnic Institute (WPI): Bachelor of Science <span>Aug 2018 - Dec 2021</span></h2>
-                        <p>I double major in math and computer science. I am dedicated to international student community. I joined k-pop dance group, ultimate frisbee team, and choir. I became a member of Upsilon Pi Epsilon (computer science honor society) in my junior year. </p>
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
-                      </div>
-                      <div className="timeline-label">
-                        <h2>Beijing 101 Middle School: International Department (101ID) <span>Sep 2015 - May 2018</span></h2>
-                        <p>I came from Beijing, China, and prepared to study abroad during high school by taking 7 AP courses, 5 TOEFL exams, and SAT for 3 times.</p> 
-                      </div>
-                    </div>
-                  </article>
-                  <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-                    <div className="timeline-entry-inner">
-                      <div className="timeline-icon color-none">
-                      </div>
-                    </div>
-                  </article>
-                </div>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <div className="timeline-centered">
+                <TimelineEntry
+                  iconColor="color-4"
+                  iconName="icon-pen2"
+                  title="Tufts University: Master of Science"
+                  date="Sep 2022 - May 2024"
+                  description="I am pursuing a graduate degree in computer science at Tufts, with a concentration on debugging cloud computing. I got elected to be the International Committee Chair for Graduate Student Council. I joined the Tufts k-pop dance group (KoDA)."
+                />
+                <TimelineEntry
+                  iconColor="color-6"
+                  iconName="icon-pen2"
+                  title="Worcester Polytechnic Institute (WPI): Bachelor of Science"
+                  date="Aug 2018 - Dec 2021"
+                  description="I double major in math and computer science. I am dedicated to the international student community. I joined the WPI k-pop dance group (KGM), ultimate frisbee team, and choir. I became a member of Upsilon Pi Epsilon (computer science honor society) in my junior year."
+                />
+                <TimelineEntry
+                  iconColor="color-3"
+                  iconName="icon-pen2"
+                  title="Beijing 101 Middle School: International Department (101ID)"
+                  date="Sep 2015 - May 2018"
+                  description="I came from Beijing, China, and prepared to study abroad during high school by taking 7 AP courses, 5 TOEFL exams, and the SAT three times."
+                />
+                <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                  <div className="timeline-entry-inner">
+                    <div className="timeline-icon color-none"></div>
+                  </div>
+                </article>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    )
-  }
-}
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Education;

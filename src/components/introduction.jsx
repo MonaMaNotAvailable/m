@@ -45,7 +45,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>I am a <br/>foodie <i className="icon-heart" aria-hidden="true" /> </h1>
-                          <p><a className="btn btn-primary btn-learn" href="?" target="_blank" rel="noopener noreferrer">View Food Map <i className="icon-book" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://goo.gl/maps/jFrHHcaSwfW2hbg19?coh=178573&entry=tt" target="_blank" rel="noopener noreferrer">View Food Map <i className="icon-book" /></a></p>
                         </div>
                       </div>
                     </div>
