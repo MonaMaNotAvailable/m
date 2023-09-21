@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/monarox/static/css/main.7a7d29af.css",
-    "main.js": "/monarox/static/js/main.376c45c1.js",
+    "main.js": "/monarox/static/js/main.01ccc358.js",
     "index.html": "/monarox/index.html",
     "main.7a7d29af.css.map": "/monarox/static/css/main.7a7d29af.css.map",
-    "main.376c45c1.js.map": "/monarox/static/js/main.376c45c1.js.map"
+    "main.01ccc358.js.map": "/monarox/static/js/main.01ccc358.js.map"
   },
   "entrypoints": [
     "static/css/main.7a7d29af.css",
-    "static/js/main.376c45c1.js"
+    "static/js/main.01ccc358.js"
   ]
 }
