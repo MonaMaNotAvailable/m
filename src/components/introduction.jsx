@@ -14,8 +14,8 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
-                          <h1>Hi! <br />I'm Mona</h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1OiZNjanmFg3OBFXqBZ4s_peBJxgrepg-/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
+                          <h1 style={{color: 'white'}}>Hi! <br />I'm Mona</h1>
+                          <p><a className="btn btn-primary btn-learn" style={{color: 'white', borderColor: 'white'}} href="https://drive.google.com/file/d/1OiZNjanmFg3OBFXqBZ4s_peBJxgrepg-/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Resume<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -30,7 +30,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1 style={{color: 'white'}}>Check out<br /> my CV!</h1>
-                          <p><a className="btn btn-primary btn-learn"  style={{color: 'white'}} href="https://drive.google.com/file/d/1wtBeVgEuj2V5DS4WkwNbOehA01KLcQgp/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn"  style={{color: 'white', borderColor: 'white'}} href="https://drive.google.com/file/d/1wtBeVgEuj2V5DS4WkwNbOehA01KLcQgp/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
