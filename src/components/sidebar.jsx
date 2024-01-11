@@ -52,8 +52,13 @@ export default class Sidebar extends Component {
                 </ul>
               </div>
             </nav>
-            <nav id="colorlib-main-menu">a
+            <nav id="colorlib-main-menu">
               <ul>
+                <li>
+                  <a href="https://www.eecs.tufts.edu/~zma02/dance.html" target="_blank" rel="noopener noreferrer">
+                    <i className="icon-star" />
+                  </a>
+                </li>
                 <li>
                   <a href="https://www.linkedin.com/in/zhifei-mona-ma-6095/" target="_blank" rel="noopener noreferrer">
                     <i className="icon-linkedin2" />
@@ -69,6 +74,11 @@ export default class Sidebar extends Component {
                     <i className="icon-instagram" />
                   </a>
                 </li>
+                {/* <li>
+                  <a href="https://www.google.com/maps/@42.3812842,-71.0907842,13z/data=!3m1!4b1!4m3!11m2!2sjAuKEN1sR32uXB9aN0Y0tQ!3e3?entry=ttu" target="_blank" rel="noopener noreferrer">
+                    <i className="icon-food" />
+                  </a>
+                </li> */}
               </ul>
             </nav>
             <div className="colorlib-footer">
